@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754793806413,
+  "lastUpdate": 1754794363829,
   "repoUrl": "https://github.com/cyril0124/test-ci",
   "entries": {
     "My test benchmark results": [
@@ -217,6 +217,54 @@ window.BENCHMARK_DATA = {
           },
           {
             "name": "Test1",
+            "value": 200,
+            "unit": "ms",
+            "extra": "type 2"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - CPU Load",
+            "value": 50,
+            "unit": "Percent"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - Memory Used",
+            "value": 100,
+            "unit": "Megabytes",
+            "range": "3",
+            "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "211998078@qq.com",
+            "name": "cyril0124",
+            "username": "cyril0124"
+          },
+          "committer": {
+            "email": "211998078@qq.com",
+            "name": "cyril0124",
+            "username": "cyril0124"
+          },
+          "distinct": true,
+          "id": "93cf6e44fd2eb825efd632e8589825d9a769f55a",
+          "message": "update",
+          "timestamp": "2025-08-10T10:51:26+08:00",
+          "tree_id": "570c97cae77ea8849c9c6f0d04e0c42be002290e",
+          "url": "https://github.com/cyril0124/test-ci/commit/93cf6e44fd2eb825efd632e8589825d9a769f55a"
+        },
+        "date": 1754794363686,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Test",
+            "value": 100,
+            "unit": "ms",
+            "extra": "type 1"
+          },
+          {
+            "name": "Test",
             "value": 200,
             "unit": "ms",
             "extra": "type 2"
