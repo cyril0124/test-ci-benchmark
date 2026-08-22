@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787381096907,
+  "lastUpdate": 1787381320629,
   "repoUrl": "https://github.com/cyril0124/test-ci",
   "entries": {
     "My test benchmark results": [
@@ -303,6 +303,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/cyril0124/test-ci/commit/c9c5c4a0b99d39557294e931dab26f40288231dc"
         },
         "date": 1787381096643,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Test",
+            "value": 100,
+            "unit": "ms",
+            "extra": "type 1"
+          },
+          {
+            "name": "Test",
+            "value": 200,
+            "unit": "ms",
+            "extra": "type 2"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - CPU Load",
+            "value": 50,
+            "unit": "Percent"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - Memory Used",
+            "value": 100,
+            "range": "3",
+            "unit": "Megabytes",
+            "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "211998078@qq.com",
+            "name": "cyril0124",
+            "username": "cyril0124"
+          },
+          "committer": {
+            "email": "211998078@qq.com",
+            "name": "cyril0124",
+            "username": "cyril0124"
+          },
+          "distinct": true,
+          "id": "236ea0dd484b2e22f1833347e3781e90f6599702",
+          "message": "ci: fix mimalloc c/cxx compilation issue under zig",
+          "timestamp": "2026-08-22T14:48:28+08:00",
+          "tree_id": "9e1b72fb2f35eda978e7f2a57b44d563fdd92d05",
+          "url": "https://github.com/cyril0124/test-ci/commit/236ea0dd484b2e22f1833347e3781e90f6599702"
+        },
+        "date": 1787381320258,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
