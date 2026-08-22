@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754794363829,
+  "lastUpdate": 1787381096907,
   "repoUrl": "https://github.com/cyril0124/test-ci",
   "entries": {
     "My test benchmark results": [
@@ -279,6 +279,54 @@ window.BENCHMARK_DATA = {
             "value": 100,
             "unit": "Megabytes",
             "range": "3",
+            "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "211998078@qq.com",
+            "name": "cyril0124",
+            "username": "cyril0124"
+          },
+          "committer": {
+            "email": "211998078@qq.com",
+            "name": "cyril0124",
+            "username": "cyril0124"
+          },
+          "distinct": true,
+          "id": "c9c5c4a0b99d39557294e931dab26f40288231dc",
+          "message": "ci: add workflow to build slang with zig for centos7",
+          "timestamp": "2026-08-22T14:44:44+08:00",
+          "tree_id": "e20837b9e56449f7c2ffabaf085974513c68028c",
+          "url": "https://github.com/cyril0124/test-ci/commit/c9c5c4a0b99d39557294e931dab26f40288231dc"
+        },
+        "date": 1787381096643,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Test",
+            "value": 100,
+            "unit": "ms",
+            "extra": "type 1"
+          },
+          {
+            "name": "Test",
+            "value": 200,
+            "unit": "ms",
+            "extra": "type 2"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - CPU Load",
+            "value": 50,
+            "unit": "Percent"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - Memory Used",
+            "value": 100,
+            "range": "3",
+            "unit": "Megabytes",
             "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
           }
         ]
